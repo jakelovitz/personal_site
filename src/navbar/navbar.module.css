@@ -1,22 +1,28 @@
 .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid #4B0082;
+    border: 1px solid #DA70D6;
     justify-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: #4B0082;
-    background-color: #DA70D6;
+    color: #DA70D6;
+    background-color: #2b1639;
 }
 
 .one {
     grid-column: 1;
+    color: #DA70D6;
+    background-color: #2b1639;
 }
 
 .two {
     grid-column: 2;
+    color: #DA70D6;
+    background-color: #2b1639;
 }
 
 .three {
     grid-column: 3;
+    color: #DA70D6;
+    background-color: #2b1639;
 }

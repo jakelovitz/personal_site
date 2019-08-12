@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from './guiding_principles.module.css'
+import { FaSchool, FaGlobeAmericas, FaTree } from 'react-icons/fa';
+
 
 class GuidingPrinciples extends Component {
     render() {
@@ -7,25 +9,26 @@ class GuidingPrinciples extends Component {
         return (
             <div className={styles.container}>
 
-                <h1 className={styles.header}>Guiding Principles</h1>
+                <div className={styles.wrapper}>
+                    <h3 className={styles.row_one}>Be a Life-Long Learner < FaSchool style={{color: '#DDA0DD'}} size={25}/></h3>
+                    <p className={styles.row_two}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                    </p>
+                </div>
 
-                <h3 className={styles.one}>Be a Life-Long Learner</h3>
+                <div className={styles.wrapper}>
+                    <h3 className={styles.row_three}>Think Big < FaGlobeAmericas style={{color: '#DDA0DD'}} size={25}/></h3>
+                    <p className={styles.row_four}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                    </p>
+                </div>
 
-                <p className={styles.row_one}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
-                </p>
-
-                <h3 className={styles.two}>Think Big</h3>
-
-                <p className={styles.row_two}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
-                </p>
-
-                <h3 className={styles.three}>Serve the Public Good</h3>
-
-                <p className={styles.row_three}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim. In massa tempor nec feugiat. Nunc aliquet bibendum enim facilisis gravida. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
-                </p>
+                <div className={styles.wrapper}>
+                    <h3 className={styles.row_five}>Serve the Public Good < FaTree style={{color: '#DDA0DD'}} size={25}/></h3>
+                    <p className={styles.row_six}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                    </p>
+                </div>
 
             </div>
         )
