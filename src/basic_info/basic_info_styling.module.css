@@ -12,7 +12,7 @@
     margin-right: 5%;
     margin-left: 5%;
     grid-column-gap: 2%;
-    background-image: url("/alexander-andrews-eNoeWZkO7Zc-unsplash.jpg");
+    
     background-size: cover; /* or contain depending on what you want */
     background-position: center center;
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@ img {
     border-radius: 35%;
     display: block;
     width: 70%;
+    border: gray;
   }
 
 .text {

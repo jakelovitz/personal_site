@@ -34,4 +34,6 @@
 
 .App {
   background-color: black;
+  height: 200%;
+  min-height: 100%;
 }

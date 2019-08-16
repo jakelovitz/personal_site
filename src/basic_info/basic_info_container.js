@@ -12,7 +12,7 @@ function BasicInfoContainer() {
         <div className={styles.container}>
 
             <h2 className={styles.text}>Your Humble Web Developer</h2>
-            <img className={styles.img} src={process.env.PUBLIC_URL + '/LovitzStraw.png'} />
+            <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} />
 
             <h2 className={styles.principles_header}>Guiding Principles</h2>
             <GuidingPrinciples className={styles.principles_text}/>
