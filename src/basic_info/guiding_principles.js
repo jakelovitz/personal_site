@@ -10,14 +10,16 @@ class GuidingPrinciples extends Component {
             <div className={styles.container}>
 
                 <div className={styles.wrapper}>
-                    <h3 className={styles.row_one}>Be a Life-Long Learner < FaSchool style={{color: '#DDA0DD'}} size={25}/></h3>
+                    <h3 className={styles.row_one}>Full-Stack Web Developer</h3>
                     <p className={styles.row_two}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                        <ul>Proficient in Ruby on Rails, JavaScript, React, Redux, HTML, and CSS, including CSS-in-JS</ul>
+                        <ul>Solid understanding of Object Oriented Programming</ul>
+                        <ul>Professional experience in Quality Assurance, user-focused design, Agile software development in scrum teams, and technical documentation.</ul>
                     </p>
                 </div>
 
                 <div className={styles.wrapper}>
-                    <h3 className={styles.row_three}>Think Big < FaGlobeAmericas style={{color: '#DDA0DD'}} size={25}/></h3>
+                    <h3 className={styles.row_three}>Life-long </h3>
                     <p className={styles.row_four}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
                     </p>

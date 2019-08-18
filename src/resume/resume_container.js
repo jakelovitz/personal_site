@@ -7,7 +7,7 @@ import ResumeComponent from './resume_component'
 class ResumeContainer extends Component {
 
     state = {
-        resumeComponent: null
+        resumeComponent: "experience"
     }
 
     handleClick = (event) => {
