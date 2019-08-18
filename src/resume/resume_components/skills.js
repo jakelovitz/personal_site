@@ -5,6 +5,7 @@ import styles from '../resume_styling.module.css'
 const MyGrid = styled('div')`
     display: grid;
     grid-template-columns: auto auto
+    grid-
 `
 
 function Skills() {
