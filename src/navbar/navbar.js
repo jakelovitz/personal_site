@@ -12,7 +12,7 @@ class Navbar extends Component {
                     
                 <Link className={styles.two} to="/resume">Resume</Link>
 
-                <div className={styles.three}>Portfolio</div>
+                <Link className={styles.three} to="/portfolio">Portfolio</Link>
 
                 </nav>
 
