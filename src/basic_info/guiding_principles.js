@@ -19,9 +19,9 @@ class GuidingPrinciples extends Component {
                 </div>
 
                 <div className={styles.wrapper}>
-                    <h3 className={styles.row_three}>Life-long </h3>
+                    <h3 className={styles.row_three}>Life-Long Learner </h3>
                     <p className={styles.row_four}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+                        Education is a life-long pursuit. People are at their best when they never stop learning, and growing, both professionally and personally. Pursue new interests and opportunities. Be honest about what you don’t know, and be eager to learn.
                     </p>
                 </div>
 
