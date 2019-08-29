@@ -3,14 +3,15 @@ import Navbar from '../navbar/navbar';
 import styles from './portfolio_styling.module.css'
 import styled from 'styled-components'
 import PortfolioComponent from './portfolio_component'
+import PortfolioButtons from './portfolio_buttons'
 
 const MyGrid = styled('div')`
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 10%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
+    
+    grid-template-rows: auto auto auto;
     justify-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -70,11 +71,13 @@ class PortfolioContainer extends Component {
 
             <MyGrid>
 
-                <SideBar>
+                {/* <SideBar>
                     <Button name="bugging" onClick={this.handleClick}>What's Bugging You</Button>
                     <Button  name="fight" onClick={this.handleClick}>Fight Simulator</Button>
                     <Button  name="art" onClick={this.handleClick}>NYC Art Events</Button>
-                </SideBar>
+                </SideBar> */}
+
+                <PortfolioButtons onClick={this.handleClick}/>
 
                 <PortfolioComponent selectedPortion={this.state.selectedComponent}/>
 

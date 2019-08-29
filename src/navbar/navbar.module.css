@@ -1,28 +1,57 @@
 .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid #DA70D6;
+    border: 1px solid black;
     justify-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: #DA70D6;
-    background-color: #2b1639;
+    color: black;
+    background-color: #565656;
 }
 
 .one {
     grid-column: 1;
-    color: #DA70D6;
-    background-color: #2b1639;
+    color: white;
+    background-color: #565656;
+    text-decoration: none;
 }
+
+.one:hover { 
+    animation-name: colorFade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
 
 .two {
     grid-column: 2;
-    color: #DA70D6;
-    background-color: #2b1639;
+    color: white;
+    background-color: #565656;
+    text-decoration: none;
+}
+
+.two:hover { 
+    animation-name: colorFade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 .three {
     grid-column: 3;
-    color: #DA70D6;
-    background-color: #2b1639;
+    color: white;
+    background-color: #565656;
+    text-decoration: none;
+}
+
+.three:hover { 
+    animation-name: colorFade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes colorFade {
+    0% {color: white;}
+    50% {color:	#9370DB;}
+    100% {color: white;}
 }

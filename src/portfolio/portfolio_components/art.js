@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const MyGrid = styled('div')`
@@ -7,18 +7,22 @@ const MyGrid = styled('div')`
 
 `
 
-function Art() {
-    return (
+class Art extends Component {
+    
+    render() {
 
-        <React.Fragment>
+        return (
 
-            <MyGrid>
-                <p>Art</p>
-                 
-                
-            </MyGrid>
-        </React.Fragment>
-    )
+            <React.Fragment>
+
+                <MyGrid>
+                    <p>Art</p>
+                    
+                    
+                </MyGrid>
+            </React.Fragment>
+        )
+    }
 }
 
 export default Art

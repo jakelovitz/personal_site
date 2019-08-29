@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const MyGrid = styled('div')`
@@ -7,18 +7,22 @@ const MyGrid = styled('div')`
 
 `
 
-function Fight() {
-    return (
+class Fight extends Component {
 
-        <React.Fragment>
+    render() {
 
-            <MyGrid>
-                <p>Fight</p>
-                 
-                
-            </MyGrid>
-        </React.Fragment>
-    )
+        return (
+
+            <React.Fragment>
+
+                <MyGrid>
+                    <p>Fight</p>
+                    
+                    
+                </MyGrid>
+            </React.Fragment>
+        )
+    }
 }
 
 export default Fight

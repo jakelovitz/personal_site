@@ -1,0 +1,28 @@
+.button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 40px;
+    border-width: 3px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    justify-self: stretch;
+  }
+  
+  .button:hover { 
+    color: purple;
+    border-radius: 40px;
+    border-width: 3px;
+    border-color: purple;
+  }
+  
+  .button_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    grid-gap: 1%;
+    flex: 1;
+    margin-right: 15%;
+    margin-left: 15%;
+  }

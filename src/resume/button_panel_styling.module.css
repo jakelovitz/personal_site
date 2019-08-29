@@ -10,6 +10,13 @@
   justify-self: stretch;
 }
 
+.button:hover { 
+  color: purple;
+  border-radius: 40px;
+  border-width: 3px;
+  border-color: purple;
+}
+
 .button_container {
   display: grid;
   grid-template-columns: auto auto auto;
