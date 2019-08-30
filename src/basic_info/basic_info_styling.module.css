@@ -17,6 +17,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 20px black;
+    font-family: 'Cantarell', sans-serif;
 }
 
 /* add a grid */
@@ -43,12 +44,14 @@ img {
     margin-left: 10%;
     background-color: #2b1639 transparent;
     color: black;
+    font-family: 'Cantarell', sans-serif;
 }
 
 .principles_header {
   grid-row: 1;
   grid-column-start: 2;
   grid-column-end: 3;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .principles_body {

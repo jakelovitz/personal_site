@@ -3,8 +3,6 @@
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 10%;
-
-
     display: grid;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -13,6 +11,6 @@
     margin-right: 10%;
     margin-left: 10%;
     grid-column-gap: 2%;
-   
-   
+    font-family: 'Cantarell', sans-serif;
+    
 }

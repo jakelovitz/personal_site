@@ -4,7 +4,8 @@ import styled from 'styled-components'
 const MyGrid = styled('div')`
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    overflow: scroll
+    height: au;
+    font-family: 'Cantarell', sans-serif;
 `
 
 class Bugging extends Component {
@@ -23,7 +24,7 @@ class Bugging extends Component {
                     <ul>Web application with a React/Redux front-end and Rails backend.</ul>
                     
                     <ul>
-                        Wellness app that lets users log, and later react to, complaints about various spheres of their life (bug species) to track if their feelings about each complaint improved or worsened over time.
+                        What's Bugging You? is a wellness app that lets users log, and later react to, complaints about various spheres of their life (bug species) to track if their feelings about each complaint improved or worsened over time.
                     </ul>
 
                     <ul>

@@ -8,6 +8,7 @@
   background-color: transparent;
   font-weight: bold;
   justify-self: stretch;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .button:hover { 
@@ -15,6 +16,7 @@
   border-radius: 40px;
   border-width: 3px;
   border-color: purple;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .button_container {
@@ -25,4 +27,5 @@
   flex: 1;
   margin-right: 15%;
   margin-left: 15%;
+  
 }

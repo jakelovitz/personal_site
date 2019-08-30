@@ -13,13 +13,12 @@ const MyGrid = styled('div')`
     
     grid-template-rows: auto auto auto;
     justify-items: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1%;
     background-color: #808080;
     color: black;
     margin-right: 10%;
     margin-left: 10%;
-    height: stretch;
+    height: auto;
 `
 
 const SideBar = styled('div')`
@@ -77,7 +76,7 @@ class PortfolioContainer extends Component {
                     <Button  name="art" onClick={this.handleClick}>NYC Art Events</Button>
                 </SideBar> */}
 
-                <PortfolioButtons onClick={this.handleClick}/>
+                <PortfolioButtons handleClick={this.handleClick}/>
 
                 <PortfolioComponent selectedPortion={this.state.selectedComponent}/>
 

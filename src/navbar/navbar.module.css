@@ -7,6 +7,7 @@
     padding-bottom: 1%;
     color: black;
     background-color: #565656;
+    font-family: 'Cantarell', sans-serif;
 }
 
 .one {
@@ -20,8 +21,11 @@
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    padding-right: 10%;
+    padding-left: 10%;
 }
-
 
 .two {
     grid-column: 2;
@@ -34,6 +38,10 @@
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .three {
@@ -47,6 +55,10 @@
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 

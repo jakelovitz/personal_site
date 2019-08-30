@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const MyGrid = styled('div')`
     display: grid;
     grid-template-rows: auto auto auto auto auto
-
+    font-family: 'Cantarell', sans-serif;
 `
 
 class Fight extends Component {

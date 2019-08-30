@@ -7,6 +7,7 @@ const MyGrid = styled('div')`
     grid-template-columns: auto auto;
     grid-column-gap: 10%;
     padding-bottom: 10%;
+    font-family: 'Cantarell', sans-serif;
 `
 
 function Skills() {

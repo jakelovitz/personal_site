@@ -8,6 +8,7 @@
     background-color: transparent;
     font-weight: bold;
     justify-self: stretch;
+    font-family: 'Cantarell', sans-serif;
   }
   
   .button:hover { 
@@ -21,7 +22,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
-    grid-gap: 1%;
+    grid-gap: 5%;
     flex: 1;
     margin-right: 15%;
     margin-left: 15%;
