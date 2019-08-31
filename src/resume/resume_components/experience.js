@@ -19,9 +19,9 @@ function Experience() {
                     <h2>Flatiron School</h2>
                     <h3>Software Engineering Immersive</h3>
                     <h3>April 2019 - August 2019</h3>
-                    <p className={styles.text}>Learned Ruby, Rails, JavaScript, and React/Redux in fast paced learning environment.</p>
-                    <p className={styles.text}>Designed and developed a highly responsive React web application with a Rails backend.</p>
-                    <p className={styles.text}>Gained a solid understanding of Object Oriented Programming.</p>
+                    <p className={styles.text}>Worked with with peers on labs and projects, with timelines varying from a couple of days to a week.</p>
+                    <p className={styles.text}>Used Github to collaborate on projects with adherence to best practices such as specific branches, commit messages, and code review.</p>
+                    <p className={styles.text}>Aggressively researched issues and bugs on my own to independently find a solution.</p>
                 </div>
                 
                 <div className={styles.wrapper}>
@@ -30,6 +30,7 @@ function Experience() {
                     <h3>February 2018 - April 2019</h3>
                     <p className={styles.text}>Conducted research online to reconstruct corporate histories, locate court cases to track down further leads, and identify entities likely to still maintain insurance information on our clients.</p>
                     <p className={styles.text}>Worked with courts, government agencies, law firms, and insurance brokers to obtain insurance policies and other records.</p>
+                    <p className={styles.text}>Provided clients with high level, yet concise and readable, overviews of technical insurance information.</p>
                 </div>
 
                 <div className={styles.wrapper}>

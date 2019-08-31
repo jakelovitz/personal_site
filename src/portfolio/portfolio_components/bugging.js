@@ -6,6 +6,7 @@ const MyGrid = styled('div')`
     grid-template-rows: auto auto auto auto auto;
     height: au;
     font-family: 'Cantarell', sans-serif;
+    padding-left: 5%;
 `
 
 class Bugging extends Component {
@@ -17,6 +18,7 @@ class Bugging extends Component {
             <React.Fragment>
 
                 <MyGrid>
+
                     <h1>What's Bugging You?</h1>
                     
                     <h2>Overview</h2>
@@ -35,7 +37,7 @@ class Bugging extends Component {
                         Users can assign a color to each bug species to easier identify and track related bugs.
                     </ul>
 
-                    <h2>Technical Specs</h2>
+                    <h2>Tech Specs</h2>
 
                     <ul>
                         What's Bugging You? uses a React/Redux Front. I made further use of the Immutability-Helper library to dynamically update JavaScript Objects and Arrays in real-time for a quick, responsive user interface. Storing and editing arrays and objects also let me limit the number of calls the app makes to my Rails backend, creating a quicker, more efficient application.

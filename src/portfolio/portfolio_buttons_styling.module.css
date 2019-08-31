@@ -21,9 +21,10 @@
   .button_container {
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-items: center;
-    grid-gap: 5%;
+    grid-gap: 2%;
     flex: 1;
-    margin-right: 15%;
-    margin-left: 15%;
   }
