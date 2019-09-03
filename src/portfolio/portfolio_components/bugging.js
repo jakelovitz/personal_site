@@ -48,6 +48,10 @@ class Bugging extends Component {
                     </ul>
 
                     <ul>
+                        I used BCrypt to securely store passwords on the back end. For client-side I utilized JSON webtoken and localStorage to encrypt user information and ensure that user's can only see their own Bugs.
+                    </ul>
+
+                    <ul>
                         Given the two week timeline I had to get a working version of What's Bugging You? I initially opted to use the Semantic Library for my styling. However, I came to find Semantic limited in a few respects, and started transitioning to my own custom CSS. This included using CSS-in-JS modules through Emotion, which allowed me to pass in data to maintain consistent color-coding throughout the application.
                     </ul>
 

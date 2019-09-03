@@ -1,5 +1,23 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import ReactBnbGallery from 'react-bnb-gallery'
+
+const photos = [{
+    photo: "https://i.imgur.com/wHwS3CY.png",
+    caption: "Viñales, Pinar del Río, Cuba",
+    subcaption: "Photo by Simon Matzinger on Unsplash",
+    thumbnail: "https://i.imgur.com/wHwS3CY.png",
+  }, {
+    photo: "https://i.imgur.com/myxenHd.png",
+    caption: "La Habana, Cuba",
+    subcaption: "Photo by Gerardo Sanchez on Unsplash",
+    thumbnail: "https://i.imgur.com/myxenHd.png",
+  }, {
+    photo: "https://i.imgur.com/WLstnQM.png",
+    caption: "Woman smoking a tobacco",
+    subcaption: "Photo by Hannah Cauhepe on Unsplash",
+    thumbnail: "https://i.imgur.com/WLstnQM.png",
+  }];
 
 const MyGrid = styled('div')`
     display: grid;
@@ -11,8 +29,20 @@ const MyGrid = styled('div')`
 
 class Art extends Component {
     
-    render() {
+    state = { galleryOpened: false };
+    
+    toggleGallery = () => {
+        console.log(this.state.galleryOpened)
 
+        this.setState({
+            galleryOpened: !this.state.galleryOpened
+        });
+    }
+
+    render() {
+        
+        // this.toggleGallery = this.toggleGallery.bind(this);
+        
         return (
 
             <React.Fragment>
@@ -32,8 +62,14 @@ class Art extends Component {
 
                     <h2>Tech Specs</h2>
                     
+                    <ul>Queries the New York Art Beat API for art events throughout NYC and parses that data based on the user's geographic preferences.</ul>
+
+                    <ul>Utilizes BCrypt to securely encrypt user passwords.</ul>
+
+                    <ul>Implemented Google Material to showcase event information in attractive, accessible manner.</ul>
                     
                 </MyGrid>
+
             </React.Fragment>
         )
     }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../navbar/navbar';
+import Footer from '../footer/footer'
 import styles from './basic_info_styling.module.css'
 import GuidingPrinciples from './guiding_principles'
 
@@ -18,6 +19,8 @@ function BasicInfoContainer() {
             <GuidingPrinciples className={styles.principles_text}/>
 
         </div>
+        
+        <Footer />
         </React.Fragment>
     );
 }

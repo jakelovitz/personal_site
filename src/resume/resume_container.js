@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar';
 import styles from './container.module.css'
 import ButtonPanel from './button_panel'
 import ResumeComponent from './resume_component'
+import Footer from '../footer/footer'
 
 class ResumeContainer extends Component {
 
@@ -20,15 +21,14 @@ class ResumeContainer extends Component {
 
 
             <React.Fragment>
-            <Navbar />
+                <Navbar />
+                    <div className={styles.container}>
 
-            <div className={styles.container}>
-
-            <ButtonPanel handleClick={this.handleClick}/>
-                
-            <ResumeComponent selectedPortion={this.state.resumeComponent} />
-            </div>
-
+                        <ButtonPanel handleClick={this.handleClick}/>
+                            
+                        <ResumeComponent selectedPortion={this.state.resumeComponent} />
+                    </div>
+                <Footer />
             </React.Fragment>
 
         );

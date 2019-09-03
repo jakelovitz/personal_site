@@ -40,7 +40,6 @@ class Fight extends Component {
 
                     <ul>I also used React to track and update various components based on user interaction. One example would be the Power and Usage pools for a move. Each pool started with twenty points, which a user could then distribute among their fighter's four moves via '+' and '-' points, which would raise/lower the pool value as appropriate.</ul>
                     
-                    
                 </MyGrid>
 
             </React.Fragment>
