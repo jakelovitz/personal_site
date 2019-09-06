@@ -10,6 +10,14 @@ const MyGrid = styled('div')`
     font-family: 'Cantarell', sans-serif;
 `
 
+const MyHTwo = styled('h2')`
+    color: purple
+`
+
+const MyHThree = styled('h3')`
+    align-self: left;
+`
+
 function Skills() {
     return (
 
@@ -17,24 +25,25 @@ function Skills() {
 
             <MyGrid>
             <div className={styles.wrapper}>
-                <h2>Skills:</h2>
+                <MyHTwo>Languages:</MyHTwo>
 
-                <h3>Ruby on Rails</h3>
-                <h3>JavaScript</h3>
-                <h3>React</h3>
-                <h3>Redux</h3>
-                <h3>HTML</h3>
-                <h3>CSS</h3>
-                <h3>CSS-in-JS</h3>
+                <MyHThree>Ruby on Rails</MyHThree>
+                <MyHThree>JavaScript</MyHThree>
+                <MyHThree>React</MyHThree>
+                <MyHThree>Redux</MyHThree>
+                <MyHThree>HTML</MyHThree>
+                <MyHThree>CSS</MyHThree>
+                <MyHThree>CSS-in-JS</MyHThree>
             </div>
 
             <div className={styles.wrapper}>
-                <h2>Experience In:</h2>
-                <h3>Quality Assurance</h3>
-                <h3>User-Focused Design</h3>
-                <h3>Agile Software Development</h3>
-                <h3>Scrum Teams</h3>
-                <h3>Technical Documentation</h3>
+                <MyHTwo>Experience In:</MyHTwo>
+                <MyHThree>Project Management</MyHThree>
+                <MyHThree>Quality Assurance</MyHThree>
+                <MyHThree>User-Focused Design</MyHThree>
+                <MyHThree>Agile Software Development</MyHThree>
+                <MyHThree>Scrum Teams</MyHThree>
+                <MyHThree>Technical Documentation</MyHThree>
             </div>
             </MyGrid>
         </React.Fragment>

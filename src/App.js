@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Navbar from './navbar/navbar';
 import BasicInfoContainer from './basic_info/basic_info_container'
 import ResumeContainer from './resume/resume_container'
 import portfolioContainer from './portfolio/portfolio_container'

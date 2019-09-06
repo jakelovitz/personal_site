@@ -20,13 +20,19 @@
     font-family: 'Cantarell', sans-serif;
 }
 
-/* add a grid */
+.img_col {
+  
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+  justify-items: center;
+}
 
-
-img {
-    grid-row: 2;
+.img {
+    /* grid-row: 2;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 2; */
     border-radius: 25%;
     display: block;
     width: 60%;

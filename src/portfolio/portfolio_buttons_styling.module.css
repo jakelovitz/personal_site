@@ -10,12 +10,17 @@
     justify-self: stretch;
     font-family: 'Cantarell', sans-serif;
   }
-  
+
   .button:hover { 
-    color: purple;
-    border-radius: 40px;
-    border-width: 3px;
-    border-color: purple;
+    animation-name: Fade;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+
+  @keyframes Fade {
+    0% {border: 3px solid white; color: white}
+    50% {border: 3px solid purple; color: purple}
+    100% {border: 3px solid white; color: white}
   }
   
   .button_container {
