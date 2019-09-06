@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/navbar';
+import Footer from '../footer/footer';
 import styles from './portfolio_styling.module.css'
 import styled from 'styled-components'
 import PortfolioComponent from './portfolio_component'
@@ -81,6 +82,7 @@ class PortfolioContainer extends Component {
                 <PortfolioComponent selectedPortion={this.state.selectedComponent}/>
 
             </MyGrid>
+            <Footer />
             </React.Fragment>
         )
     }
