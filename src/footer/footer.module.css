@@ -1,13 +1,12 @@
-.navbar {
+.footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border: 1px solid black;
     justify-items: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
     color: black;
     background-color: #565656;
     font-family: 'Cantarell', sans-serif;
+    align-items: center;
 }
 
 .one {
@@ -59,6 +58,19 @@
     border-left: 2px solid;
     padding-right: 10%;
     padding-left: 10%;
+}
+
+.four {
+    grid-column: 4;
+    color: white;
+    background-color: #565656;
+    text-decoration: none;
+}
+
+.four:hover { 
+    animation-name: colorFade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 

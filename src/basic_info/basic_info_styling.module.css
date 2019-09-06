@@ -17,15 +17,22 @@
     background-position: center center;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 20px black;
+    font-family: 'Cantarell', sans-serif;
 }
 
-/* add a grid */
+.img_col {
+  
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+  justify-items: center;
+}
 
-
-img {
-    grid-row: 2;
+.img {
+    /* grid-row: 2;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 2; */
     border-radius: 25%;
     display: block;
     width: 60%;
@@ -43,12 +50,14 @@ img {
     margin-left: 10%;
     background-color: #2b1639 transparent;
     color: black;
+    font-family: 'Cantarell', sans-serif;
 }
 
 .principles_header {
   grid-row: 1;
   grid-column-start: 2;
   grid-column-end: 3;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .principles_body {

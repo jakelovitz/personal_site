@@ -4,8 +4,8 @@ import styles from '../resume_styling.module.css'
 
 const MyGrid = styled('div')`
     display: grid;
-    grid-template-rows: auto auto auto auto auto
-
+    grid-template-rows: auto auto auto auto auto;
+    font-family: 'Cantarell', sans-serif;
 `
 
 function Education() {

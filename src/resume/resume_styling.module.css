@@ -8,12 +8,7 @@
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: stretch;
-  }
-
-  @keyframes borderFade {
-    0% {border: 2px solid white;}
-    50% {border: 2px solid purple;}
-    100% {border: 2px solid white;}
+   
   }
 
   .wrapper {
@@ -42,6 +37,12 @@
     animation-name: borderFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+  }
+
+  @keyframes borderFade {
+    0% {border: 2px solid white;}
+    50% {border: 2px solid purple;}
+    100% {border: 2px solid white;}
   }
 
   .text {
