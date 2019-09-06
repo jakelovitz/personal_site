@@ -55,6 +55,9 @@ class Bugging extends Component {
                         Given the two week timeline I had to get a working version of What's Bugging You? I initially opted to use the Semantic Library for my styling. However, I came to find Semantic limited in a few respects, and started transitioning to my own custom CSS. This included using CSS-in-JS modules through Emotion, which allowed me to pass in data to maintain consistent color-coding throughout the application.
                     </ul>
 
+                    <h2>Demo Video</h2>
+
+                    <ul><iframe width="560" height="315" src="https://www.youtube.com/embed/rXZErXAhPzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ul>
 
                     
                 </MyGrid>

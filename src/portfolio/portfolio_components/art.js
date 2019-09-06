@@ -1,23 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import ReactBnbGallery from 'react-bnb-gallery'
-
-const photos = [{
-    photo: "https://i.imgur.com/wHwS3CY.png",
-    caption: "Viñales, Pinar del Río, Cuba",
-    subcaption: "Photo by Simon Matzinger on Unsplash",
-    thumbnail: "https://i.imgur.com/wHwS3CY.png",
-  }, {
-    photo: "https://i.imgur.com/myxenHd.png",
-    caption: "La Habana, Cuba",
-    subcaption: "Photo by Gerardo Sanchez on Unsplash",
-    thumbnail: "https://i.imgur.com/myxenHd.png",
-  }, {
-    photo: "https://i.imgur.com/WLstnQM.png",
-    caption: "Woman smoking a tobacco",
-    subcaption: "Photo by Hannah Cauhepe on Unsplash",
-    thumbnail: "https://i.imgur.com/WLstnQM.png",
-  }];
 
 const MyGrid = styled('div')`
     display: grid;
@@ -28,16 +10,6 @@ const MyGrid = styled('div')`
 `
 
 class Art extends Component {
-    
-    state = { galleryOpened: false };
-    
-    toggleGallery = () => {
-        console.log(this.state.galleryOpened)
-
-        this.setState({
-            galleryOpened: !this.state.galleryOpened
-        });
-    }
 
     render() {
         
@@ -48,7 +20,7 @@ class Art extends Component {
             <React.Fragment>
 
                 <MyGrid>
-                <h1>NYC Art</h1>
+                    <h1>NYC Art Events</h1>
                     
                     <h2>Overview</h2>
 
@@ -62,11 +34,15 @@ class Art extends Component {
 
                     <h2>Tech Specs</h2>
                     
-                    <ul>Queries the New York Art Beat API for art events throughout NYC and parses that data based on the user's geographic preferences.</ul>
+                    <ul>NYC Art queries the New York Art Beat API for art events throughout NYC and parses that data based on the user's geographic preferences. If an Event object hasn't already been created for that event, Rails makes on now. It also grabs all the user-created Events from the database and displays them to the user alongside the API-created events.</ul>
 
-                    <ul>Utilizes BCrypt to securely encrypt user passwords.</ul>
+                    <ul>We used BCrypt to securely encrypt user passwords, and a Sessions Controller to restrict some user actions - for example, only the creater of an event can delete it, and a user can only un-save their own events.</ul>
 
-                    <ul>Implemented Google Material to showcase event information in attractive, accessible manner.</ul>
+                    <ul>We also implemented Google Materialize for the styling. We utilized various Materialize components to best showcase event information in attractive, accessible manner.</ul>
+
+                    <h2>Demo Video</h2>
+
+                    <ul><iframe title="NYC Art Events Demo" width="560" height="315" src="https://www.youtube.com/embed/GNXeV-o5dg4" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></ul>
                     
                 </MyGrid>
 

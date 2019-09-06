@@ -3,13 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+    "react": "^16.9.0",
+=======
     "react": "^16.8.6",
+>>>>>>> master
     "react-bnb-gallery": "^1.1.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.3.2"
+    "react-youtube": "^7.9.0",
+    "styled-components": "^4.3.2",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",
