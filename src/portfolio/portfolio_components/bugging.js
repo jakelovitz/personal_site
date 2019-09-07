@@ -57,7 +57,7 @@ class Bugging extends Component {
 
                     <h2>Demo Video</h2>
 
-                    <ul><iframe width="560" height="315" src="https://www.youtube.com/embed/rXZErXAhPzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></ul>
+                    <ul><iframe title="What's Bugging You? Demo" width="560" height="315" src="https://www.youtube.com/embed/rXZErXAhPzw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></ul>
 
                     
                 </MyGrid>

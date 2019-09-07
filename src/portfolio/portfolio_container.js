@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
-import styles from './portfolio_styling.module.css'
 import styled from 'styled-components'
 import PortfolioComponent from './portfolio_component'
 import PortfolioButtons from './portfolio_buttons'
-import Footer from '../footer/footer'
 
 const MyGrid = styled('div')`
     margin-top: 2%;

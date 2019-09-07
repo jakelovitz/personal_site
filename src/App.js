@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import BasicInfoContainer from './basic_info/basic_info_container'
 import ResumeContainer from './resume/resume_container'
-import portfolioContainer from './portfolio/portfolio_container'
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PortfolioContainer from './portfolio/portfolio_container';
 
