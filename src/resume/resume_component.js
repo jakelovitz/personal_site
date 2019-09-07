@@ -3,7 +3,18 @@ import styles from './resume_styling.module.css'
 import Education from './resume_components/education'
 import Experience from './resume_components/experience'
 import Skills from './resume_components/skills'
+import styled from 'styled-components'
 
+const MyContainer = styled('div')`
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    flex: 1;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: stretch;
+`
 
 class ResumeComponent extends Component {
 
@@ -21,9 +32,9 @@ class ResumeComponent extends Component {
     
     render() {
         return (
-            <div className={styles.resume_container}>
+            <MyContainer>
                 {this.determineComponent()}
-            </div>
+            </MyContainer>
         )
     }
 

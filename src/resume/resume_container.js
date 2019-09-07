@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/navbar';
-import styles from './container.module.css'
 import ButtonPanel from './button_panel'
 import ResumeComponent from './resume_component'
 import Footer from '../footer/footer'
+import styled from 'styled-components'
+
+const MyGrid = styled('div')`
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+    display: grid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #808080;
+    color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+    grid-column-gap: 2%;
+    font-family: 'Cantarell', sans-serif;
+`
 
 class ResumeContainer extends Component {
 
@@ -22,12 +37,12 @@ class ResumeContainer extends Component {
 
             <React.Fragment>
                 <Navbar />
-                    <div className={styles.container}>
+                    <MyGrid>
 
                         <ButtonPanel handleClick={this.handleClick}/>
                             
                         <ResumeComponent selectedPortion={this.state.resumeComponent} />
-                    </div>
+                    </MyGrid>
                 <Footer />
             </React.Fragment>
 
