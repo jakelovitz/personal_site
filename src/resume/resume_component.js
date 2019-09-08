@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styles from './resume_styling.module.css'
 import Education from './resume_components/education'
 import Experience from './resume_components/experience'
 import Skills from './resume_components/skills'
@@ -12,7 +11,7 @@ const MyContainer = styled('div')`
     flex: 1;
     margin-right: 15%;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: stretch;
 `
 

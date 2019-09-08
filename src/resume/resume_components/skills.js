@@ -1,11 +1,10 @@
 import React from 'react';
 import styled from 'styled-components'
-import styles from '../resume_styling.module.css'
 
 const MyGrid = styled('div')`
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 10%;
+    grid-column-gap: 30%;
     padding-bottom: 10%;
     font-family: 'Cantarell', sans-serif;
 `
@@ -24,7 +23,7 @@ function Skills() {
         <React.Fragment>
 
             <MyGrid>
-            <div className={styles.wrapper}>
+            <div>
                 <MyHTwo>Languages:</MyHTwo>
 
                 <MyHThree>Ruby on Rails</MyHThree>
@@ -36,7 +35,7 @@ function Skills() {
                 <MyHThree>CSS-in-JS</MyHThree>
             </div>
 
-            <div className={styles.wrapper}>
+            <div>
                 <MyHTwo>Experience In:</MyHTwo>
                 <MyHThree>Project Management</MyHThree>
                 <MyHThree>Quality Assurance</MyHThree>
