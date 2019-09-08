@@ -18,7 +18,7 @@ function BasicInfoContainer() {
                 <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
             </div>
 
-            <h2 style={{justifySelf: "left", marginLeft: "5%", color: "purple"}}>Jake Lovitz, at a glance</h2>
+            <h2 style={{justifySelf: "left", marginLeft: "5%"}}>Jake Lovitz, at a glance</h2>
             <GuidingPrinciples className={styles.principles_text}/>
 
         </div>
