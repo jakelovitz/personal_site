@@ -3,10 +3,11 @@ import styled from 'styled-components'
 
 const MyGrid = styled('div')`
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 30%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40%;
     padding-bottom: 10%;
     font-family: 'Cantarell', sans-serif;
+    white-space: nowrap;
 `
 
 const MyHTwo = styled('h2')`
@@ -17,13 +18,17 @@ const MyHThree = styled('h3')`
     align-self: left;
 `
 
+const MyColumn = styled('div')`
+    width: stretch;
+`
+
 function Skills() {
     return (
 
         <React.Fragment>
 
             <MyGrid>
-            <div>
+            <MyColumn>
                 <MyHTwo>Languages:</MyHTwo>
 
                 <MyHThree>Ruby on Rails</MyHThree>
@@ -31,9 +36,8 @@ function Skills() {
                 <MyHThree>React</MyHThree>
                 <MyHThree>Redux</MyHThree>
                 <MyHThree>HTML</MyHThree>
-                <MyHThree>CSS</MyHThree>
-                <MyHThree>CSS-in-JS</MyHThree>
-            </div>
+                <MyHThree>CSS / CSS-in-JS</MyHThree>
+            </MyColumn>
 
             <div>
                 <MyHTwo>Experience In:</MyHTwo>

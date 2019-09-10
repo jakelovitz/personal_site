@@ -8,7 +8,7 @@ import ButtonPanel from '../button_panel/button_panel'
 const MyGrid = styled('div')`
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 20px;
+    border-radius: 40px;
     display: grid;
     grid-template-rows: auto auto auto;
     justify-items: center;
