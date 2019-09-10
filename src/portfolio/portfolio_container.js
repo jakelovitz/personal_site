@@ -3,14 +3,13 @@ import Navbar from '../navbar/navbar';
 import Footer from '../footer/footer';
 import styled from 'styled-components'
 import PortfolioComponent from './portfolio_component'
-import PortfolioButtons from './portfolio_buttons'
+import ButtonPanel from '../button_panel/button_panel'
 
 const MyGrid = styled('div')`
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 10%;
     display: grid;
-    
     grid-template-rows: auto auto auto;
     justify-items: center;
     padding: 1%;
@@ -21,6 +20,24 @@ const MyGrid = styled('div')`
     height: auto;
 `
 
+const buttons = [
+    {
+        type: "button",
+        componentName: "bugging", 
+        componentDisplay: "What's Bugging You?"
+    },
+    {
+        type: "button",
+        componentName: "art", 
+        componentDisplay: "NYC Art Events"
+    },
+    {
+        type: "button",
+        componentName: "fight", 
+        componentDisplay: "Fight Simulator"
+    }
+]
+
 class PortfolioContainer extends Component {
 
     state = {
@@ -28,6 +45,7 @@ class PortfolioContainer extends Component {
     }
 
     handleClick = (event) => {
+        debugger
         this.setState({ selectedComponent: event.target.name })
     }
 
@@ -36,22 +54,17 @@ class PortfolioContainer extends Component {
         return (
 
             <React.Fragment>
-            <Navbar />
+                < Navbar />
 
-            <MyGrid>
+                <MyGrid>
 
-                {/* <SideBar>
-                    <Button name="bugging" onClick={this.handleClick}>What's Bugging You</Button>
-                    <Button  name="fight" onClick={this.handleClick}>Fight Simulator</Button>
-                    <Button  name="art" onClick={this.handleClick}>NYC Art Events</Button>
-                </SideBar> */}
+                    <ButtonPanel handleClick={this.handleClick} array={buttons}/>
 
-                <PortfolioButtons handleClick={this.handleClick}/>
+                    <PortfolioComponent selectedPortion={this.state.selectedComponent}/>
 
-                <PortfolioComponent selectedPortion={this.state.selectedComponent}/>
-
-            </MyGrid>
-            <Footer />
+                </MyGrid>
+                
+                <Footer />
             </React.Fragment>
         )
     }
