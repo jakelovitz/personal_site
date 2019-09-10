@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './footer.module.css'
 import { Route } from 'react-router-dom'
+import Pdf from '../Lovitz-Resume.pdf';
 
 class Footer extends Component {
     render() {
@@ -16,7 +17,9 @@ class Footer extends Component {
 
                 <a className={styles.three} href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer">Blog</a>
 
-                <p className={styles.four} >jakelovitz@gmail.com / 914-438-7994</p>
+                <a className={styles.four} href = {Pdf} target = "_blank" rel="noopener noreferrer">Download Resume!</a>
+
+                <p className={styles.five} >jakelovitz@gmail.com</p>
 
                 </nav>
                 </Route>
