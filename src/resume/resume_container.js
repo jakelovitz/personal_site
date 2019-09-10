@@ -20,6 +20,24 @@ const MyGrid = styled('div')`
     font-family: 'Cantarell', sans-serif;
 `
 
+const buttons = [
+    {
+        type: "button",
+        componentName: "bugging", 
+        componentDisplay: "What's Bugging You?"
+    },
+    {
+        type: "button",
+        componentName: "art", 
+        componentDisplay: "NYC Art Events"
+    },
+    {
+        type: "button",
+        componentName: "fight", 
+        componentDisplay: "Fight Simulator"
+    }
+]
+
 class ResumeContainer extends Component {
 
     state = {
