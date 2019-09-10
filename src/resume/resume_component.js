@@ -4,15 +4,23 @@ import Experience from './resume_components/experience'
 import Skills from './resume_components/skills'
 import styled from 'styled-components'
 
+// const MyContainer = styled('div')`
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     justify-content: center;
+//     flex: 1;
+//     margin-right: 15%;
+//     margin-left: 15%;
+//     margin-top: 1%;
+//     margin-bottom: stretch;
+// `
+
 const MyContainer = styled('div')`
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    flex: 1;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 1%;
-    margin-bottom: stretch;
+display: grid;
+grid-template-rows: auto auto auto auto auto;
+height: au;
+font-family: 'Cantarell', sans-serif;
+padding-left: 5%;
 `
 
 class ResumeComponent extends Component {

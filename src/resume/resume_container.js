@@ -1,40 +1,38 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/navbar';
-import ButtonPanel from './button_panel'
 import ResumeComponent from './resume_component'
 import Footer from '../footer/footer'
 import styled from 'styled-components'
+import ButtonPanel from '../button_panel/button_panel'
 
 const MyGrid = styled('div')`
     margin-top: 2%;
     margin-bottom: 2%;
     border-radius: 10%;
     display: grid;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    padding: 1%;
     background-color: #808080;
     color: black;
     margin-right: 10%;
     margin-left: 10%;
-    grid-column-gap: 2%;
-    font-family: 'Cantarell', sans-serif;
+    height: auto;
 `
+
 
 const buttons = [
     {
-        type: "button",
-        componentName: "bugging", 
-        componentDisplay: "What's Bugging You?"
+        componentName: "experience", 
+        componentDisplay: "Experience"
     },
     {
-        type: "button",
-        componentName: "art", 
-        componentDisplay: "NYC Art Events"
+        componentName: "education", 
+        componentDisplay: "Education"
     },
     {
-        type: "button",
-        componentName: "fight", 
-        componentDisplay: "Fight Simulator"
+        componentName: "skills", 
+        componentDisplay: "Skills"
     }
 ]
 
@@ -57,9 +55,10 @@ class ResumeContainer extends Component {
                 <Navbar />
                     <MyGrid>
 
-                        <ButtonPanel handleClick={this.handleClick}/>
+                        <ButtonPanel handleClick={this.handleClick} array={buttons}/>
                             
                         <ResumeComponent selectedPortion={this.state.resumeComponent} />
+
                     </MyGrid>
                 <Footer />
             </React.Fragment>

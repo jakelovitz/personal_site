@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border: 1px solid black;
     justify-items: center;
     color: black;
@@ -68,6 +68,19 @@
 }
 
 .four:hover { 
+    animation-name: colorFade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.five {
+    grid-column: 5;
+    color: white;
+    background-color: #565656;
+    text-decoration: none;
+}
+
+.five:hover { 
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
