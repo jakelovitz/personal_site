@@ -3,9 +3,11 @@ import styled from 'styled-components'
 
 const MyGrid = styled('div')`
     display: grid;
+    height: stretch;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 40%;
-    padding-bottom: 10%;
+    margin-top: 10%
+    margin-bottom: 20%;
     font-family: 'Cantarell', sans-serif;
     white-space: nowrap;
 `
