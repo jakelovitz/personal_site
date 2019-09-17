@@ -57,6 +57,8 @@ class Bugging extends Component {
 
                     <h2>Demo Video</h2>
 
+                    <ul>Please note, the below video captures the application as it was when I first live demo'd it. I've continued working on it in the meantime, making both stylistic changes and functional improvements. I blog about it sometimes, if you're interested in reading more!</ul>
+
                     <ul><iframe title="What's Bugging You? Demo" width="560" height="315" src="https://www.youtube.com/embed/rXZErXAhPzw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></ul>
 
                     
