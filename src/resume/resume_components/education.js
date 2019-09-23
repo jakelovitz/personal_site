@@ -6,7 +6,8 @@ const MyGrid = styled('div')`
     grid-template-rows: auto auto auto auto auto;
     height: au;
     font-family: 'Cantarell', sans-serif;
-    padding-left: 5%;
+    
+    
 `
 
 function Education() {
@@ -18,9 +19,9 @@ function Education() {
                 <div>
                     <h1>Flatiron School</h1>
                     <h2 >Software Engineering Immersive</h2>
-                    <p style={{marginLeft: "5%"}}>Learned Ruby, Rails, JavaScript, and React/Redux in fast paced learning environment.</p>
-                    <p style={{marginLeft: "5%"}}>Designed and developed a highly responsive React web application with a Rails backend.</p>
-                    <p style={{marginLeft: "5%"}}>Gained a solid understanding of Object Oriented Programming.</p>
+                    <ul>Learned Ruby, Rails, JavaScript, and React/Redux in fast paced learning environment.</ul>
+                    <ul>Designed and developed a highly responsive React web application with a Rails backend.</ul>
+                    <ul>Gained a solid understanding of Object Oriented Programming.</ul>
                 </div>
 
                 <div>
