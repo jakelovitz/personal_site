@@ -25,7 +25,7 @@ class GuidingPrinciples extends Component {
                 <div className={styles.wrapper}>
                     <h3 className={styles.row_five}>Voracious Reader</h3>
                     <p className={styles.row_six}>
-                        When not coding, I can usually be found with a book in hand. I'm currently reading <span>The Fate of Rome</span>, by Kyle Harper, and <span>Perdido Street Station</span>, by China Miéville.
+                        When not coding, I can usually be found with a book in hand. I'm currently reading <span>The Fate of Rome</span>, by Kyle Harper, and <span>The City and the City</span>, by China Miéville.
                     </p>
                 </div>
 
