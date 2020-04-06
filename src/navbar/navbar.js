@@ -8,7 +8,10 @@ class Navbar extends Component {
             <header>
                 <nav className={styles.navbar}>
 
-                <Link className={styles.one} to="/">About Jake</Link>
+                <Link className={styles.one} to="/">
+                    <span>Jake Lovitz</span>
+                    <span className={styles.onehalf}>AT A GLANCE</span>
+                </Link>
                     
                 <Link className={styles.two} to="/resume">Resume</Link>
 

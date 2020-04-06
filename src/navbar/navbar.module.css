@@ -1,23 +1,33 @@
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid black;
-    justify-items: center;
+    grid-template-columns: 3fr 1fr 1fr;
+    /* border: 1px solid black; */
+    /* justify-items: center; */
     padding-top: 1%;
     padding-bottom: 1%;
+    /* padding-right: 10%; */
+    padding-left: 10%;
     color: black;
-    background-color: #565656;
-    font-family: 'Cantarell', sans-serif;
+    background-color: #9596ff;
+    font-family: 'Amiri';
 }
 
 .one {
     grid-column: 1;
+    display: grid;
+    grid-template-rows: auto auto;
     color: white;
-    background-color: #565656;
+    background-color: #9596ff;
     text-decoration: none;
+    font-size: 30px;
 }
 
-.one:hover { 
+.onehalf{
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+/* .one:hover { 
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -25,16 +35,18 @@
     border-left: 2px solid;
     padding-right: 10%;
     padding-left: 10%;
-}
+} */
 
 .two {
     grid-column: 2;
     color: white;
-    background-color: #565656;
+    background-color: #9596ff;
     text-decoration: none;
+    align-self: end;
+    font-style: italic;
 }
 
-.two:hover { 
+/* .two:hover { 
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -42,16 +54,18 @@
     border-left: 2px solid;
     padding-right: 10%;
     padding-left: 10%;
-}
+} */
 
 .three {
     grid-column: 3;
     color: white;
-    background-color: #565656;
+    background-color: #9596ff;
     text-decoration: none;
+    align-self: end;
+    font-style: italic;
 }
 
-.three:hover { 
+/* .three:hover { 
     animation-name: colorFade;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -59,7 +73,7 @@
     border-left: 2px solid;
     padding-right: 10%;
     padding-left: 10%;
-}
+} */
 
 
 @keyframes colorFade {

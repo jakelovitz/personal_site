@@ -4,11 +4,11 @@
     border-radius: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    /* grid-template-rows: auto auto; */
     justify-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: #808080;
+    background-color: #d9d6ff;
     color: black;
     margin-right: 10%;
     margin-left: 10%;
@@ -22,7 +22,7 @@
 
 .img_col {
   
-  grid-row: 2;
+  /* grid-row: 2; */
   grid-column-start: 1;
   grid-column-end: 2;
   display: grid;

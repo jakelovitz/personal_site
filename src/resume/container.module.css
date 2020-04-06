@@ -5,10 +5,12 @@
     display: grid;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: #808080;
+    background-color: white;
     color: black;
     margin-right: 10%;
     margin-left: 10%;
     grid-column-gap: 2%;
     font-family: 'Cantarell', sans-serif;
+    border: solid 1px purple;
+    padding: 5%;
 }
