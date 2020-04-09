@@ -1,7 +1,7 @@
 .container {
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: auto auto; */
