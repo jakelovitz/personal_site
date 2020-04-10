@@ -12,12 +12,14 @@ function BasicInfoContainer() {
 
         <div className={styles.container}>
 
-            <div className={styles.img_col}>
-                <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
+            <div className={styles.content}>
+                <div>
+                    <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
+                </div>
+
+                <GuidingPrinciples/>
+
             </div>
-
-            <GuidingPrinciples className={styles.principles_text}/>
-
         </div>
         
         <Footer />

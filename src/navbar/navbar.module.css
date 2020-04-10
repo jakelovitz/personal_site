@@ -1,25 +1,22 @@
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 10% 10fr 1fr 1fr 10%;
     padding-top: 1%;
     padding-bottom: 1%;
-    /* padding-right: 10%; */
-    padding-left: 10%;
-    color: black;
-    
     background-color: #adb9c9;
     font-family: 'Amiri';
 }
 
 .one {
-    grid-column: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
     display: grid;
     grid-template-rows: auto auto;
     color: #424242;
     background-color: #adb9c9;
     text-decoration: none;
     font-size: 30px;
-    margin-right: 50%;
+    margin-right: 80%;
 }
 
 .onehalf{
@@ -32,39 +29,31 @@
 }
 
 .two {
-    grid-column: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
     color: #424242;
     background-color: #adb9c9;
     text-decoration: none;
     align-self: end;
     font-style: italic;
+    font-size: 20px;
 }
 
-/* .two:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-} */
+.two:hover { 
+    color: #805291;
+}
 
 .three {
-    grid-column: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
     color: #424242;
     background-color: #adb9c9;
     text-decoration: none;
     align-self: end;
     font-style: italic;
+    font-size: 20px;
 }
 
-/* .three:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-} */
+.three:hover { 
+    color: #805291;
+}
