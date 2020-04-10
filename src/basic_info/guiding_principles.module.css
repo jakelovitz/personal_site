@@ -3,9 +3,9 @@
     grid-template-rows: auto auto auto auto auto auto;
     background-color: #2b1639 transparent;
     color: black;
-    margin-right: 5%;
-    margin-left: 5%;
-    font-family: 'Cantarell', sans-serif;
+    /* margin-right: 5%;
+    margin-left: 5%; */
+    /* font-family: 'Roboto'; */
 }
 
 .row_one {
