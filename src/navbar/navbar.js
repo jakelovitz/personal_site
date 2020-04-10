@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import styles from './navbar.module.css'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 class Navbar extends Component {
+
+
     render() {
         return(
             <header>
@@ -15,7 +19,14 @@ class Navbar extends Component {
                     
                 <Link className={styles.two} to="/resume">Resume</Link>
 
-                <Link className={styles.three} to="/portfolio">Portfolio</Link>
+                <div className={styles.three}>
+
+                    <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin}/>
+                    </a>
+    
+                    <Link className={styles.threetwo} to="/portfolio">Portfolio </Link>
+                </div>
 
                 </nav>
 

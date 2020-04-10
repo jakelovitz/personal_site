@@ -46,14 +46,35 @@
 .three {
     grid-column-start: 4;
     grid-column-end: 5;
+    display: grid;
+    grid-template-rows: auto auto;
+    text-decoration: none;
+}
+
+.threeone{
+    color: #424242;
+    background-color: #adb9c9;
+    font-family: 'Roboto';
+    font-size: 20px;
+    align-self: end;
+    justify-self: center;
+}
+
+.threeone:hover { 
+    color: #805291;
+}
+
+.threetwo{
     color: #424242;
     background-color: #adb9c9;
     text-decoration: none;
     align-self: end;
+    justify-self: center;
     font-style: italic;
     font-size: 20px;
+    text-decoration: none;
 }
 
-.three:hover { 
+.threetwo:hover { 
     color: #805291;
 }
