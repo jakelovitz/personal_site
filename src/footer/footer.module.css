@@ -1,94 +1,80 @@
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    border: 1px solid black;
-    justify-items: center;
-    color: black;
-    background-color: #565656;
-    font-family: 'Cantarell', sans-serif;
-    align-items: center;
+    grid-template-columns: 10% 10fr 1fr 1fr 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #22364c;
+    font-family: 'Amiri';
 }
 
 .one {
-    grid-column: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: grid;
+    grid-template-rows: auto auto;
     color: white;
-    background-color: #565656;
     text-decoration: none;
+
+    /* margin-right: 80%; */
 }
 
-.one:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
+.oneone{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.onetwo{
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
 }
 
 .two {
-    grid-column: 2;
-    color: white;
-    background-color: #565656;
-    text-decoration: none;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.two:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
+.twoone {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.twotwo {
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
+    color: white;
+    text-decoration: none;
 }
 
 .three {
-    grid-column: 3;
-    color: white;
-    background-color: #565656;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.threeone {
     text-decoration: none;
-}
-
-.three:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.four {
-    grid-column: 4;
     color: white;
-    background-color: #565656;
-    text-decoration: none;
+    font-size: 20px;
 }
 
-.four:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-.five {
-    grid-column: 5;
+.threetwo {
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
     color: white;
-    background-color: #565656;
     text-decoration: none;
-}
-
-.five:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes colorFade {
-    0% {color: white;}
-    50% {color:	#9370DB;}
-    100% {color: white;}
 }
