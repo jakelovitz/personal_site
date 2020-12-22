@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Education from './resume_components/education'
 import Experience from './resume_components/experience'
 import Skills from './resume_components/skills'
-import styled from 'styled-components'
 
 // const MyContainer = styled('div')`
 // display: grid;
