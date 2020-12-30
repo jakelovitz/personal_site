@@ -12,7 +12,7 @@ function BasicInfoContainer() {
 
         <div className={styles.container}>
 
-            <h2 className={styles.text}>Jake, everybody's friend</h2>
+            <h2 className={styles.text}>Jake, your hubmle webhost</h2>
 
             <div className={styles.img_col}>
                 <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
