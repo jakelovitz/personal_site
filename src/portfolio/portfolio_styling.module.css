@@ -1,14 +1,14 @@
 .container {
     margin-top: 2%;
     margin-bottom: 2%;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: auto auto;
     justify-items: center;
     padding-top: 1%;
     padding-bottom: 1%;
-    background-color: #808080;
+    background-color: White;
     color: black;
     margin-right: 10%;
     margin-left: 10%;
