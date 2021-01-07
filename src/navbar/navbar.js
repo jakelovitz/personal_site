@@ -13,7 +13,7 @@ class Navbar extends Component {
                 <nav className={styles.navbar}>
 
                 <Link className={styles.one} to="/">
-                    <span>Jake Lovitz</span>
+                    <span>Jake</span>
                     <span className={styles.onehalf}>AT A GLANCE</span>
                 </Link>
                     

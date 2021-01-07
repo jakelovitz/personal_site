@@ -4,28 +4,36 @@ import { Route } from 'react-router-dom'
 import Pdf from '../Lovitz-Resume.pdf';
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 class Footer extends Component {
     render() {
         return(
             <footer>
                 <Route>
-                    <nav className={styles.footer}>
+                    <nav className={styles.NewFooter}>
 
-                        <div className={styles.one}>
+                        <div className={styles.SectionA}>
                             <p className={styles.oneone}>Jake Lovitz</p>
-                            <p className={styles.onetwo}>jakelovitz@gmail.com</p>
+                            {/* <p className={styles.onetwo}>jakelovitz@gmail.com</p> */}
+                        </div>
+
+                        <div className={styles.SectionB}>
+                            <a href = {Pdf} target = "_blank" rel="noopener noreferrer">Download Resume!</a>
                         </div>
                         
-                        <div className={styles.two}>
-                            <Link className={styles.twoone} to="/resume">Resume</Link>
-                            <a className={styles.twotwo} href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer">Github</a>
+                        <div className={styles.SectionC}>
+                            <p className={styles.onetwo}>jakelovitz@gmail.com</p>
+                            {/* <Link className={styles.twoone} to="/resume">Resume</Link> */}
+                            {/* <a className={styles.twotwo} href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer">Github</a> */}
                         </div>
 
-                        <div className={styles.three}>
-                            <Link className={styles.threeone} to="/portfolio">Portfolio</Link>
-                            <a className={styles.threetwo} href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer">portfolio</a>
+                        <div className={styles.SectionD}>
+                        <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin}/>
+                    </a>
+                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a>
                         </div>
 
                         {/* <a className={styles.four} href = {Pdf} target = "_blank" rel="noopener noreferrer">Download Resume!</a> */}
