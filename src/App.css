@@ -33,11 +33,7 @@
 } */
 
 .App {
-  background-color: black;
-  background-image: url("/jeremy-perkins-FsK54FVNRfm-unsplash.jpg");
+  background-color: #ebf1fa;
   height: 200%;
   min-height: 100%;
-  background-repeat: repeat-y;
-  background-size: cover;
-  background-position: center;
 }

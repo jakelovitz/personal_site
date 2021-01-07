@@ -1,69 +1,79 @@
 .navbar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid black;
-    justify-items: center;
+    grid-template-columns: 10% 10fr 1fr 1fr 10%;
     padding-top: 1%;
     padding-bottom: 1%;
-    color: black;
-    background-color: #565656;
-    font-family: 'Cantarell', sans-serif;
+    background-color: #adb9c9;
+    font-family: 'Amiri';
 }
 
 .one {
-    grid-column: 1;
-    color: white;
-    background-color: #565656;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-rows: auto auto;
+    color: #424242;
+    background-color: #adb9c9;
     text-decoration: none;
+    font-size: 30px;
+    margin-right: 80%;
+}
+
+.onehalf{
+    font-family: 'Roboto';
+    font-size: 20px;
 }
 
 .one:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
+    color: #805291;
 }
 
 .two {
-    grid-column: 2;
-    color: white;
-    background-color: #565656;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: #424242;
+    background-color: #adb9c9;
     text-decoration: none;
+    align-self: end;
+    font-style: italic;
+    font-size: 20px;
 }
 
 .two:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
+    color: #805291;
 }
 
 .three {
-    grid-column: 3;
-    color: white;
-    background-color: #565656;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-rows: auto auto;
     text-decoration: none;
 }
 
-.three:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
+.threeone{
+    color: #424242;
+    background-color: #adb9c9;
+    font-size: 20px;
+    align-self: end;
+    justify-self: center;
 }
 
+.threeone:hover { 
+    color: #805291;
+}
 
-@keyframes colorFade {
-    0% {color: white;}
-    50% {color:	#9370DB;}
-    100% {color: white;}
+.threetwo{
+    color: #424242;
+    background-color: #adb9c9;
+    text-decoration: none;
+    align-self: end;
+    justify-self: center;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.threetwo:hover { 
+    color: #805291;
 }

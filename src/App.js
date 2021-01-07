@@ -10,9 +10,11 @@ function App() {
 
     <Router>
     <div className="App">
-      <Route path="/" exact component={BasicInfoContainer} />
-      <Route path="/resume" component={ResumeContainer} />
-      <Route path="/portfolio" component={PortfolioContainer} />
+      <div className="app_container">
+        <Route path="/" exact component={BasicInfoContainer} />
+        <Route path="/resume" component={ResumeContainer} />
+        <Route path="/portfolio" component={PortfolioContainer} />
+      </div>
     </div>
     </Router>
   );

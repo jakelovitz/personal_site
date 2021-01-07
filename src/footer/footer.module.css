@@ -1,94 +1,152 @@
-.footer {
+/* .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    border: 1px solid black;
-    justify-items: center;
-    color: black;
-    background-color: #565656;
-    font-family: 'Cantarell', sans-serif;
-    align-items: center;
-}
-
+    grid-template-columns: 10% 10fr 1fr 1fr 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #22364c;
+    font-family: 'Amiri';
+} */
+/* 
 .one {
-    grid-column: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: grid;
+    grid-template-rows: auto auto;
     color: white;
-    background-color: #565656;
     text-decoration: none;
-}
 
-.one:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-}
+    /* margin-right: 80%; */
+/* } */
 
-.two {
-    grid-column: 2;
+/* .oneone{
+    text-decoration: none;
     color: white;
-    background-color: #565656;
+    font-size: 20px;
+} */
+
+/* .onetwo{
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
+} */
+
+/* .two {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+/* 
+.twoone {
     text-decoration: none;
-}
-
-.two:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.three {
-    grid-column: 3;
     color: white;
-    background-color: #565656;
-    text-decoration: none;
-}
-
-.three:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    border-right: 2px solid;
-    border-left: 2px solid;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-.four {
-    grid-column: 4;
+    font-size: 20px;
+} */
+/* 
+.twotwo {
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
     color: white;
-    background-color: #565656;
     text-decoration: none;
-}
+} */
 
-.four:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
+/* .three {
+    grid-column-start: 4;
+    grid-column-end: 5;
 
+    display: grid;
+    grid-template-rows: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+
+/* .threeone {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+} */
+
+/* .threetwo {
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
+    color: white;
+    text-decoration: none;
+} */
+
+/* .four {
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: end;
+    color: white;
+    text-decoration: none;
+} */
+/* 
 .five {
-    grid-column: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+} */
+
+.NewFooter {
+    display: grid;
+    grid-template-columns: 10% 10fr 2fr 10%;
+    grid-template-rows: 10px 1fr 1fr 10px;
+    background-color: #22364c;
     color: white;
-    background-color: #565656;
+    font-family: 'Amiri';
+    font-size: 20px;
     text-decoration: none;
 }
 
-.five:hover { 
-    animation-name: colorFade;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+.SectionA {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    align-self: center;
 }
 
-
-@keyframes colorFade {
-    0% {color: white;}
-    50% {color:	#9370DB;}
-    100% {color: white;}
+.SectionB {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: end;
+    align-self: center;
+    text-decoration: none;
 }
+
+.SectionC {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    align-self: center;
+}
+
+.SectionD {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    /* justify-self: end; */
+    align-self: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #805291;
+    text-decoration: none;
+  }
