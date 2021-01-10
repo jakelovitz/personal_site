@@ -1,41 +1,39 @@
 import React, { Component } from 'react';
 import Navbar from '../navbar/navbar';
-import ResumeComponent from './resume_component'
 import Footer from '../footer/footer'
 import styled from 'styled-components'
-import ButtonPanel from '../button_panel/button_panel'
 import styles from './container.module.css'
 
-const MyGrid = styled('div')`
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border-radius: 40px;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    justify-items: center;
-    padding: 1%;
-    background-color: #808080;
-    color: black;
-    margin-right: 10%;
-    margin-left: 10%;
-    height: auto;
-`
+// const MyGrid = styled('div')`
+//     margin-top: 2%;
+//     margin-bottom: 2%;
+//     border-radius: 40px;
+//     display: grid;
+//     grid-template-rows: auto auto auto;
+//     justify-items: center;
+//     padding: 1%;
+//     background-color: #808080;
+//     color: black;
+//     margin-right: 10%;
+//     margin-left: 10%;
+//     height: auto;
+// `
 
 
-const buttons = [
-    {
-        componentName: "experience", 
-        componentDisplay: "Experience"
-    },
-    {
-        componentName: "education", 
-        componentDisplay: "Education"
-    },
-    {
-        componentName: "skills", 
-        componentDisplay: "Skills"
-    }
-]
+// const buttons = [
+//     {
+//         componentName: "experience", 
+//         componentDisplay: "Experience"
+//     },
+//     {
+//         componentName: "education", 
+//         componentDisplay: "Education"
+//     },
+//     {
+//         componentName: "skills", 
+//         componentDisplay: "Skills"
+//     }
+// ]
 
 class ResumeContainer extends Component {
 
