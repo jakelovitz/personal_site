@@ -14,11 +14,11 @@ function BasicInfoContainer() {
 
 
             <div className={styles.content}>
+                
                 <div>
+                    {/* <h2 className={styles.text}>Jake, your humble webhost</h2> */}
                     <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
                 </div>
-
-            <h2 className={styles.text}>Jake, your humble webhost</h2>
 
 
                 <GuidingPrinciples/>
