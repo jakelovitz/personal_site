@@ -1,81 +1,60 @@
-.navbar {
+.NewNavbar {
     display: grid;
-    grid-template-columns: 10% 10fr 1fr 1fr 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    grid-template-columns: 10% 10fr 2fr 10%;
+    grid-template-rows: 10px 2fr 1fr 10px;
     background-color: #adb9c9;
+    color: white;
     font-family: 'Amiri';
+    font-size: 20px;
+    text-decoration: none;
 }
 
-.one {
+.SectionA {
     grid-column-start: 2;
     grid-column-end: 3;
-    display: grid;
-    grid-template-rows: auto auto;
-    color: #424242;
-    background-color: #adb9c9;
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 80%;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    align-self: center;
+    justify-content: stretch;
 }
 
-.onehalf{
-    font-family: 'Roboto';
-    font-size: 20px;
-}
-
-.one:hover { 
-    color: #805291;
-}
-
-.two {
+.SectionB {
     grid-column-start: 3;
     grid-column-end: 4;
-    color: #424242;
-    background-color: #adb9c9;
-    text-decoration: none;
-    align-self: center;
-    font-style: italic;
-    font-size: 20px;
-    /* justify-self: center; */
+    grid-row-start: 2;
+    grid-row-end: 3;
 
-}
-
-.two:hover { 
-    color: #805291;
-}
-
-.three {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    display: grid;
-    grid-template-rows: auto auto;
-    text-decoration: none;
-}
-
-.threeone{
-    color: #424242;
-    background-color: #adb9c9;
-    font-size: 20px;
-    align-self: center;
-    /* justify-self: center; */
-}
-
-.threeone:hover { 
-    color: #805291;
-}
-
-.threetwo{
-    color: #424242;
-    background-color: #adb9c9;
-    text-decoration: none;
-    align-self: end;
     justify-self: center;
-    font-style: italic;
-    font-size: 20px;
+    align-self: center;
     text-decoration: none;
 }
 
-.threetwo:hover { 
-    color: #805291;
+/* .SectionC {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    align-self: center;
+} */
+
+.SectionD {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    justify-content: space-evenly;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #805291;
+    text-decoration: none;
+  }

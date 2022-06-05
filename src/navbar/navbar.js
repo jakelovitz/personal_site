@@ -1,38 +1,46 @@
 import React, { Component } from 'react';
 import styles from './navbar.module.css'
 import { Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import Pdf from '../Lovitz-Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMedium, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-class Navbar extends Component {
-
-
+class NavBar extends Component {
     render() {
         return(
             <header>
-                <nav className={styles.navbar}>
+                <Route>
+                    <nav className={styles.NewNavbar}>
 
-                <Link className={styles.one} to="/">
-                    <span>Jake Lovitz</span>
-                    <span className={styles.onehalf}>AT A GLANCE</span>
-                </Link>
-                    
-                <Link className={styles.two} to="/resume">Resume</Link>
+                        <div className={styles.SectionA}>
+                            <Link className={styles.sectionB} to="/">Jake Lovitz</Link>
+                        </div>
 
-                <div className={styles.three}>
+                        <div className={styles.SectionB}>
+                            <Link className={styles.sectionB} to="/resume">Resume</Link>
+                        </div>
+                        
+                        {/* <div className={styles.SectionC}>
+                            <p className={styles.onetwo}>jakelovitz@gmail.com</p>
+                        </div> */}
 
-                    <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin}/>
-                    </a>
-    
-                    {/* <Link className={styles.threetwo} to="/portfolio">Portfolio </Link> */}
-                </div>
-
-                </nav>
-
+                        <div className={styles.SectionD}>
+                        
+                            <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin}/>
+                            </a>
+                                
+                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                                
+                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a>
+                        
+                        </div>
+                    </nav>
+                </Route>
             </header>
         )
     }
 }
 
-export default Navbar
+export default NavBar
