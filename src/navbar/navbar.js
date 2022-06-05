@@ -25,7 +25,7 @@ class Navbar extends Component {
                         <FontAwesomeIcon icon={faLinkedin}/>
                     </a>
     
-                    <Link className={styles.threetwo} to="/portfolio">Portfolio </Link>
+                    {/* <Link className={styles.threetwo} to="/portfolio">Portfolio </Link> */}
                 </div>
 
                 </nav>

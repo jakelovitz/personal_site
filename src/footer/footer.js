@@ -14,7 +14,7 @@ class Footer extends Component {
 
                         <div className={styles.SectionA}>
                             <p className={styles.oneone}>Jake Lovitz</p>
-                            {/* <p className={styles.onetwo}>jakelovitz@gmail.com</p> */}
+                           
                         </div>
 
                         <div className={styles.SectionB}>
@@ -23,20 +23,20 @@ class Footer extends Component {
                         
                         <div className={styles.SectionC}>
                             <p className={styles.onetwo}>jakelovitz@gmail.com</p>
-                            {/* <Link className={styles.twoone} to="/resume">Resume</Link> */}
-                            {/* <a className={styles.twotwo} href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer">Github</a> */}
+                           
                         </div>
 
                         <div className={styles.SectionD}>
-                        <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faLinkedin}/>
-                    </a>
+                        
+                            <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faLinkedin}/>
+                            </a>
+                                
                             <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                                
                             <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a>
+                        
                         </div>
-
-                        {/* <a className={styles.four} href = {Pdf} target = "_blank" rel="noopener noreferrer">Download Resume!</a> */}
-
                     </nav>
                 </Route>
             </footer>
