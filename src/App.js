@@ -3,7 +3,6 @@ import './App.css';
 import BasicInfoContainer from './basic_info/basic_info_container'
 import ResumeContainer from './resume/resume_container'
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import PortfolioContainer from './portfolio/portfolio_container';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <div className="app_container">
         <Route path="/" exact component={BasicInfoContainer} />
         <Route path="/resume" component={ResumeContainer} />
-        <Route path="/portfolio" component={PortfolioContainer} />
       </div>
     </div>
     </Router>
