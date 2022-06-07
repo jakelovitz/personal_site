@@ -25,10 +25,14 @@
 
 .container_two {
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   background-color: #2b1639 transparent;
   color: black;
 }
+
+/* .row_zero {
+  grid-row: 1;
+} */
 
 .row_one {
   grid-row: 1;
