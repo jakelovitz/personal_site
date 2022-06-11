@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 10% 1fr 10%;
+  grid-template-columns: 25% 1fr 25%;
   justify-items: center;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -14,13 +14,15 @@
   grid-column-start: 2;
   grid-column-end: 3;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .img {
   display: block;
-  width: 60%;
+  width: 40%;
   margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
   }
 
 .container_two {

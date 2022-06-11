@@ -1,6 +1,6 @@
 .NewNavbar {
     display: grid;
-    grid-template-columns: 10% 10fr 2fr 10%;
+    grid-template-columns: 25% 10fr 2fr 25%;
     grid-template-rows: 10px 2fr 1fr 10px;
     background-color: #adb9c9;
     color: white;

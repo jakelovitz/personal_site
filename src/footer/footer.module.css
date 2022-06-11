@@ -1,6 +1,6 @@
 .NewFooter {
     display: grid;
-    grid-template-columns: 10% 10fr 2fr 10%;
+    grid-template-columns: 25% 10fr 2fr 25%;
     grid-template-rows: 10px 1fr 1fr 10px;
     background-color: #22364c;
     color: white;
@@ -41,7 +41,7 @@
     grid-row-start: 3;
     grid-row-end: 4;
     display: flex;
-    /* justify-self: end; */
+    justify-self: center;
     align-self: center;
     text-decoration: none;
     justify-content: space-evenly;

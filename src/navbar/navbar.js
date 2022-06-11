@@ -27,13 +27,17 @@ class NavBar extends Component {
 
                         <div className={styles.SectionD}>
                         
-                            <a className={styles.threeone} href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/jakelovitz/" target="_blank" rel="noopener noreferrer">
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
                                 
-                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub}/>
+                            </a>
                                 
-                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a>
+                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faMedium}/>
+                            </a>
                         
                         </div>
                     </nav>

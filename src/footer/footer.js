@@ -32,9 +32,13 @@ class Footer extends Component {
                                 <FontAwesomeIcon icon={faLinkedin}/>
                             </a>
                                 
-                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href="https://github.com/jakelovitz" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faGithub}/>
+                            </a>
                                 
-                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faMedium}/></a>
+                            <a href="https://medium.com/@jakelovitz" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon icon={faMedium}/>
+                            </a>
                         
                         </div>
                     </nav>

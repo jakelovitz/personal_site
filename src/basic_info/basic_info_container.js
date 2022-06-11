@@ -14,9 +14,9 @@ function BasicInfoContainer() {
 
             <div className={styles.content}>
                 
-                {/* <div>
+                <div>
                     <img className={styles.img} src={process.env.PUBLIC_URL + '/OG.png'} alt="your humble web developer" />
-                </div> */}
+                </div>
 
                 <div className={styles.container_two}>
 
@@ -49,7 +49,7 @@ function BasicInfoContainer() {
             </div>
         </div>
         
-        <Footer />
+        <Navbar />
         </React.Fragment>
     );
 }
