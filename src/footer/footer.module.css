@@ -1,7 +1,7 @@
 .NewFooter {
     display: grid;
     grid-template-columns: 25% 10fr 2fr 25%;
-    grid-template-rows: 10px 1fr 1fr 10px;
+    grid-template-rows: 10px 2fr 1fr 10px;
     background-color: #22364c;
     color: white;
     font-family: 'Amiri';
@@ -13,8 +13,9 @@
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
     align-self: center;
+    justify-content: stretch;
 }
 
 .SectionB {
@@ -22,26 +23,27 @@
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+
     justify-self: center;
     align-self: center;
     text-decoration: none;
 }
 
-.SectionC {
+/* .SectionC {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
     align-self: center;
-}
+} */
 
 .SectionD {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
+
     display: flex;
-    justify-self: center;
     align-self: center;
     text-decoration: none;
     justify-content: space-evenly;

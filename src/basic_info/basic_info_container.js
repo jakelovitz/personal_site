@@ -49,7 +49,7 @@ function BasicInfoContainer() {
             </div>
         </div>
         
-        <Navbar />
+        <Footer />
         </React.Fragment>
     );
 }
